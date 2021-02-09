@@ -1,0 +1,22 @@
+{
+  "name": "p0_challenge_1-cafe_visitation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      "./testHelpers/testReporter.js"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "jest-html-reporter": "^3.1.3"
+  }
+}
